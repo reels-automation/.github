@@ -5,7 +5,9 @@ Aprendiendo con personajes es un proyecto que tiene como objetivo la creación d
 ## Arquitectura
 
 La aplicación tiene una arquitectura de microservicios, cada etapa del proceso de creación de un reel es un microservicio distinto. Los microservicios interactuan entre sí utilizando Kafka.
+
 Como ejecutar
+
 ### Api Gateway
 
 Es la api central del sistema, conecta el frontend con el resto de microservicios.
